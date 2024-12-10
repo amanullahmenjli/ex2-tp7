@@ -3,7 +3,7 @@
 #include "estAlpha.h"
 
 int estAlpha(char *CH) {
-    char *p;
+    char *p = CH;
     int trouve = 0;
     do {
         if (isalpha(*p) || isspace(*p)) {
